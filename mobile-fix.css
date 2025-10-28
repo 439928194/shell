@@ -1,0 +1,151 @@
+/* 移动端响应式修复 */
+@media screen and (max-width: 768px) {
+    /* 基础调整 */
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+        overflow-x: hidden;
+    }
+    
+    /* 顶部区域修复 */
+    .ctop1a, .ctop2, .ctop3 {
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+    
+    .ctop2a, .ctop3a {
+        width: 100% !important;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    /* 主导航菜单修复 */
+    .ctop3ax {
+        width: 100% !important;
+        padding: 0 !important;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .ctop3ax li {
+        display: inline-block;
+        float: none !important;
+    }
+    
+    .ctop3ax li a {
+        font-size: 12px !important;
+        padding: 0 8px;
+    }
+    
+    /* 面包屑导航修复 */
+    .cztxxa {
+        width: 100% !important;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .cztxxa ul {
+        padding-left: 0;
+        white-space: normal;
+    }
+    
+    .cztxxa li {
+        display: inline;
+        font-size: 12px;
+    }
+    
+    /* 主内容区域修复 */
+    .cztxxb {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cztxxb1, .cztxxb2 {
+        width: 100% !important;
+        float: none !important;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    /* 文章内容修复 */
+    .cztxxb1x {
+        width: 100% !important;
+    }
+    
+    .cztxxb1y h3 {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    
+    .TRS_Editor p {
+        text-align: justify;
+        word-break: break-word;
+    }
+    
+    /* 侧边栏修复 */
+    .cztxxb2a, .cztxxb2b, .cztxxb2c, .cztxxb2d {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    
+    .cztxxb2b ul li {
+        display: block;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .cztxxb2b li.cztxxb2bli1, 
+    .cztxxb2b li.cztxxb2bli2 {
+        width: 100% !important;
+        padding: 0;
+    }
+    
+    /* 图片响应式 */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* 页脚修复 */
+    .cfoot {
+        min-width: 100% !important;
+    }
+    
+    .cfootb {
+        height: auto !important;
+        padding: 10px;
+    }
+    
+    .cfootbx {
+        width: 100% !important;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    .cfootbxp1, .cfootbxp2 {
+        padding-left: 0 !important;
+        text-align: center;
+    }
+}
+
+/* 小屏幕手机优化 */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    
+    .ctop3ax li a {
+        font-size: 10px !important;
+        padding: 0 5px;
+    }
+    
+    .cztxxb1y h3 {
+        font-size: 16px;
+    }
+    
+    .cztxxb1z p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
